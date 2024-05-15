@@ -1,0 +1,52 @@
+/* Footer Styles */
+/* ----------------Footer----------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap');
+
+.footer {
+    background: #fdf6ff;
+    padding: 40px 0;
+}
+
+.footer h3 {
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
+    color: #313131;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul li a {
+    font-weight: normal;
+    font-size: 14px;
+    text-align: left;
+    color: #313131;
+    margin-bottom: 2%;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.header .navbar .navbar-nav .nav-item .nav-link:hover {
+    color: #f30079; 
+}
+
+
+.footer p {
+    font-weight: 500;
+    font-size: 12px;
+    color: #313131;
+}
+
+.footer p a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+}
+
+.social-links a {
+    text-decoration: none;
+}

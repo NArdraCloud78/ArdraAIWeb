@@ -1,0 +1,300 @@
+* --------------------About Us-------------------- */
+
+
+.about-us .about-us-banner {
+    margin-bottom: 2%;;
+}
+
+.about-us .about-us-banner iframe {
+    width: 100%;
+    border-radius: 15px;
+    background: #fff;
+
+}
+
+.about-us-content {
+    margin-bottom: 5%;
+}
+
+.about-us-content .heading-holder h1 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: center;
+    color: #313131;
+}
+
+.about-us-content .heading-holder h2 {
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #b538d3;
+    margin-bottom:3%;
+    line-height: 1.6;
+}
+.about-us-content .heading-holder h2 span {
+    display:block;
+    font-size: 10.5px;
+    color: #313131;
+    font-weight:normal;
+}
+
+.about-us-content .text-holder p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #313131;
+}
+#cards{
+      background: url("../assets/images/banner/team.png");
+       background-repeat: no-repeat;
+    background-position: center
+}
+#cards .card {
+    border-radius: 20px;
+    height:auto;
+    min-height: 100%;
+    /*filter: drop-shadow(0px 0px 40px rgba(243, 0, 121, 0.07));*/
+}
+
+#cards .heading-border {
+    position: absolute;
+    width: 100%;
+    top: 60%;
+}
+
+#cards .card .user-picture img {
+    position: absolute;
+    top: -20%;
+    right: 10%;
+    background: #f8f9fa!important;
+    padding: 10px;
+}
+#cards .card .small{
+      color: #313131;
+}
+#cards .card .user-content .user-name {
+    margin-right: 150px;
+       color: #313131;
+}
+.blockquote-footer::before {
+    color:#b538d3;
+}
+@media(max-width:991px) {
+    .about-us-content .heading-holder h1 {
+        font-size: 28px;
+    }
+
+    .about-us-content .heading-holder h2 {
+        font-size: 16px;
+    }
+
+    .about-us-content .text-holder p {
+        font-size: 12px;
+    }
+}
+
+/* ----------------Year ----------------- */
+.year {
+    margin-bottom: 6%;
+    position: relative;
+}
+
+.year .year-holder {
+    cursor: pointer;
+}
+
+.year .year-holder .icon-holder {
+    width: 56px;
+    height: 56px;
+    padding: 8% 0;
+    border-radius: 15px;
+    background: #fff;
+    box-shadow: 0px 0px 40px rgba(243, 0, 121, 0.07);
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.year .year-holder .icon-holder img {
+    width: 20.5px;
+    height: 19.62px;
+
+}
+
+.year .year-holder:hover .icon-holder {
+    background: linear-gradient(#b538d3 0%, #f30079 100%);
+    box-shadow: 0px 0px 40px rgba(243, 0, 121, 0.07);
+}
+
+.year .year-holder .content-holder h3 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #313131;
+
+}
+
+.year .year-holder .content-holder h3 span {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #313131;
+
+}
+
+.year .year-holder .content-holder p {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: center;
+    color: #313131;
+}
+
+.year #bakcg2 {
+    position: absolute;
+    z-index: -1;
+    top: -140%;
+    left: 14%;
+    right: -40%;
+    opacity: 0.17;
+}
+/* ----------------Sericing Market----------------- */
+.servicing-markets {
+    margin-bottom: 6%;
+}
+
+.servicing-markets .heading-holder h3 {
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    color: #313131;
+
+}
+
+.servicing-markets .heading-holder h3 span {
+    display: block;
+    width: 18px;
+    height: 0px;
+    background: transparent;
+    border: 3px solid #f30079;
+    opacity: 0.5;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.servicing-markets .text-holder p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #313131;
+
+}
+
+.servicing-markets .count-holder h5 {
+    font-weight: 600;
+    font-size: 56px;
+    text-align: center;
+    color: #b538d3;
+}
+
+.servicing-markets .count-holder h5 span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #313131;
+}
+@media(max-width:991px) {
+    .servicing-markets .heading-holder h3 {
+        font-size: 28px;
+    }    
+    .servicing-markets .text-holder p {
+        font-size: 12px;
+    }
+    
+    .servicing-markets .count-holder h5 {
+        font-size: 30px;
+    }
+    
+    .servicing-markets .count-holder h5 span {
+        font-size: 12px;
+    }
+    .year .year-holder .icon-holder {
+        padding: 4% 0;
+    }
+}
+
+/* ----------------Team----------------- */
+.team {
+    margin-bottom: 6%;
+}
+
+.team .heading-holder h3 {
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    color: #313131;
+
+}
+
+.team .heading-holder h3 span {
+    display: block;
+    width: 18px;
+    height: 0px;
+    background: transparent;
+    border: 3px solid #f30079;
+    opacity: 0.5;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team .text-holder p {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #313131;
+
+}
+
+.team .count-holder h5 {
+    font-weight: 600;
+    font-size: 56px;
+    text-align: center;
+    color: #b538d3;
+}
+
+.team .count-holder h5 span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #313131;
+}
+@media(max-width:991px) {
+    .team .heading-holder h3 {
+        font-size: 28px;
+    }    
+    .team .text-holder p {
+        font-size: 12px;
+    }
+    
+    .team .count-holder h5 {
+        font-size: 30px;
+    }
+    
+    .team .count-holder h5 span {
+        font-size: 12px;
+    }
+    .year .year-holder .icon-holder {
+        padding: 4% 0;
+    }
+}

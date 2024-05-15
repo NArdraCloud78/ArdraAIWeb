@@ -1,0 +1,35 @@
+
+  .contact-form input[type="text"],
+  .contact-form input[type="email"],
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  
+  .contact-form textarea {
+    height: 100px;
+  }
+  
+  .contact-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+  
+  }
+
+ 
+  .contact-form input[type="submit"]:hover  {
+    background-color: #3b3c3d    ;
+  } 
+  /* .required::after {
+    content: "*";
+    color: red;
+    margin-left: 4px;
+  } */
+  
